@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - I Made Bagus Wisnu Deva Manik</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body> 
+    
+    <!-- navbar -->
+<nav class="fixed top-0 left-0 w-full bg-gradient-to-r from-indigo-700 to-blue-500 text-white shadow-lg z-50">
+  <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+    <!-- Logo / Nama -->
+    <h1 class="text-lg font-semibold whitespace-nowrap">I Made Bagus Wisnu Deva Manik</h1>
+    <!-- Menu -->
+    <ul class="flex items-center space-x-6 text-sm font-medium">
+      <li><a href="#about" class="hover:text-yellow-200 transition">About</a></li>
+      <li><a href="#education" class="hover:text-yellow-200 transition">Education</a></li>
+      <li><a href="#experience" class="hover:text-yellow-200 transition">Experience</a></li>
+      <!-- Tombol Dark Mode Bulat -->
+      <li>
+        <button id="darkToggle" title="Toggle Dark Mode"
+          class="w-9 h-9 flex items-center justify-center rounded-full border-2 border-white/40 bg-white/20 text-xl hover:bg-white/30 transition">
+          🌙
+        </button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+    <main class="container">
+    <!-- hero section -->
+    <section id="home">
+    <div class="home_content">
+      <div data-aos="fade-up" data-aos-duration="1000">
+        <h2 class="typing">Hello, It's me Bagus Wisnu</h2>
+        <p class="fadein-text">Nice to meet you, I’m glad to get to know you 😍</p>
+        <a href="#about">
+        <button class="btn">About</button>
+
+        </a>
+      </div>
+      <figure class="home_photo_container" data-aos="zoom-in" data-aos-duration="1200">
+      <img
+        class="home_photo"
+        src="assets/images/home_photo.jpg"
+        alt="My Photo"/>
+      </figure>
+    </div>
+    </section>
+      <!-- about me -->
+      <section id="about" data-aos="fade-right" data-aos-duration="1000">
+        <div class="about_content">
+          <figure class="about_photo-container">
+            <img
+              class="photo_about"
+              src="assets/images/bagus.jpeg"
+              alt="My Photo"
+            />
+          </figure>
+        <div>
+          <p>
+            <b>Hello 🙋, my name is I Made Bagus Wisnu Deva Manik, but you can call me Bagus or Wisnu. 
+            I’m a freshman at Udayana University, currently living in North Denpasar, about 20 km from campus 🛵
+            I have a strong passion for pursuing my education, especially in the field of programming 💻. </b>
+          </p>
+          <br>
+          <br>
+          <ul class="about_details">
+            <li>
+              <article>
+                <p><b>Place, Date of Birth:</b> Bekasi, February 21, 2007</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Gender:</b> Male</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>University:</b> Udayana University</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Faculty:</b> Mathematics and Natural Sciences</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Study Program:</b> Informatics</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Phone Number:</b> 085955311899</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Email:</b> baguswisnudevamanik@gmail.com</p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <p><b>Instagram:</b> @baguswisn_</p>
+              </article>
+            </li>
+          </ul>
+        </div>
+        </div>
+      </section>
+        <!-- education -->
+      <section id="education" data-aos="fade-left" data-aos-duration="1000">
+        <header class="section-header">
+          <h2>Education Background</h2>
+        </header>
+        <ul class="history">
+          <li>
+            <article>
+              <h4>Darma Pertiwi Bekasi Kindergarten</h4>
+              <time>(2011 - 2012)</time>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Mutiara Singaraja Kindergarten</h4>
+              <time>(2012 - 2013)</time>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Mutiara Singaraja Elementary School</h4>
+              <time>(2013 - 2019)</time>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Junior High School 6 Singaraja</h4>
+              <time>(2019 - 2022)</time>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Senior High School 1 Singaraja</h4>
+              <time>(2022 - 2025)</time>
+            </article>
+          </li>
+          <li>
+            <article>
+              <h4>Udayana University</h4>
+              <time>(2025 - Now)</time>
+            </article>
+          </li>
+        </ul>
+      </section>
+      <!-- pengalaman -->
+      <section id="experience" data-aos="fade-right" data-aos-duration="1000">
+        <header class="section-header">
+          <h2>Experience</h2>
+        </header>
+        <ul class="experience">
+          <li>
+            <article class="experience_item">
+              <h4>Don't have any experience</h4>
+              <time></time>
+            </article>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <div class="container">
+  <div class="section-header fade-in">
+    <h2>Leave a Massage</h2>
+  </div>
+
+  <div class="contact-wrapper" id="contactWrapper">
+    <!-- Form -->
+    <form class="contact-form fade-in" id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+
+    <!-- List pesan -->
+    <ul id="messagesList"></ul>
+  </div>
+</div>
+
+
+    <!-- footer -->
+    <footer class="footer">
+      <p>&copy; 2025 I Made Bagus Wisnu Deva Manik. All rights reserved.</p>
+      <p>
+        <span>Contact:</span>
+        <a href="mailto:baguswisnudevamanik@gmail.com">baguswisnudevamanik@gmail.com</a> |
+        <a href="tel:085955311899">085955311899</a>
+      </p>
+    </footer>
+
+    <!-- tombol ke atas (PASTI di luar footer) -->
+    <button id="toTop" title="Back to top">▲</button>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script src="script.js"></script>
+<script>
+  const toTop = document.getElementById("toTop");
+
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+      toTop.classList.add("active");
+    } else {
+      toTop.classList.remove("active");
+    }
+  });
+
+  toTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  <script>
+    const texts = ["Hello, It's me I Made Bagus Wisnu Deva Manik","You can call me Bagus Wisnu", "Welcome to my portfolio!", "Enjoy exploring 😄"];
+    const typingElement = document.querySelector(".typing");
+    let index = 0;
+    let charIndex = 0;
+    let deleting = false;
+  function typeEffect() {
+  const currentText = texts[index];
+    if (!deleting && charIndex < currentText.length) {
+      typingElement.textContent = currentText.substring(0, charIndex + 1);
+      charIndex++;
+      setTimeout(typeEffect, 100); // kecepatan ngetik
+    } else if (deleting && charIndex > 0) {
+      typingElement.textContent = currentText.substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(typeEffect, 50); // kecepatan hapus
+    } else {
+      if (!deleting) {
+        deleting = true;
+        setTimeout(typeEffect, 1500); // jeda sebelum hapus
+      } 
+      else {
+        deleting = false;
+        index = (index + 1) % texts.length; // lanjut ke teks berikutnya
+        setTimeout(typeEffect, 300);
+      }
+    }
+  }
+  // mulai efek ngetik
+  typeEffect();
+
+  </script>
+  </body>
+</html>
